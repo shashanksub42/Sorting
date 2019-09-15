@@ -29,7 +29,7 @@ def sort_urls(urls):
     return sorted_domains
 
 if __name__ == "__main__":
-    with open ('sample_urls.txt', 'r') as f:
+    with open ('sample_urls', 'r') as f:
         urls = f.readlines()
 
     #Strip the escape character
