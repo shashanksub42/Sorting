@@ -33,6 +33,6 @@ if __name__ == "__main__":
         urls = f.readlines()
 
     #Strip the escape character
-    urls = [urls[i].strip('\n') for i in range(len(urls))]
+    urls = [url.strip('\n') for url in urls]
 
     print_list(sort_urls(urls))
